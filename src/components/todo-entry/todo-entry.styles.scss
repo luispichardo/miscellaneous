@@ -1,0 +1,20 @@
+.todo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  border: 1px solid #61dbfb;
+  padding: 10px;
+
+  h3 {
+    background: transparent;
+    padding: 0;
+    align-items: flex-start;
+  }
+
+  input {
+    color: #61dbfb;
+    height: inherit;
+    size: 10px;
+  }
+}

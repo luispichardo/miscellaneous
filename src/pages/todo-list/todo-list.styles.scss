@@ -1,0 +1,64 @@
+.todo-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .TodoListPage {
+    width: 30%;
+    border: 1px solid #61dbfb;
+    margin-top: 20px;
+    padding: 10px;
+
+    h1 {
+      display: flex;
+      justify-content: center;
+      border-bottom: 1px solid #61dbfb;
+    }
+
+    span {
+      margin-right: 5px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+
+    input {
+      background-color: #303245;
+      border-radius: 12px;
+      border: 0;
+      box-sizing: border-box;
+      color: #eee;
+      font-size: 18px;
+      height: 100%;
+      width: 100%;
+      padding: 4px;
+      outline: #61dbfb;
+    }
+
+    input:focus {
+      outline: none !important;
+      border-color: #61dbfb;
+      box-shadow: 0 0 10px #61dbfb;
+      padding: 5px;
+    }
+
+    button {
+      background-color: #08d;
+      border-radius: 12px;
+      border: 0;
+      box-sizing: border-box;
+      color: #eee;
+      cursor: pointer;
+      font-size: 18px;
+      height: 50px;
+      margin-top: 38px;
+      text-align: center;
+      width: 30%;
+    }
+  }
+
+  .todo-list {
+    margin-top: 20px;
+    width: 31.1%;
+  }
+}
